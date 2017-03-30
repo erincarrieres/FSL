@@ -47,7 +47,6 @@ ul.nav li:hover
 .header 
 	:height 50vh
 	:background-image url('images/fpoHeader.jpg') 
-	:background-position: 5px 785px;
 	:background-size cover
 	:height 600px
 	:position relative
@@ -74,13 +73,15 @@ ul.nav li:hover
 	:left 0
 	:right 0
 
+
 h2.indexH1
 	:font-size 45px
 	:margin-top 150px
 
 p.indexP
-	:width 76%
+	:width 100%
 	:color white
+	:text-align center
 
 .about 
 	:position relative
@@ -293,8 +294,8 @@ p.indexP
 	:background-position: 5px 660px;
 
 
-.strategy_description
-	:margin-left 170px
+// .strategy_description
+// 	:margin-left 170px
 
 .inner-evaluation
 	:color white
@@ -310,9 +311,17 @@ p.indexP
 	:margin-top 195px
 	:width 75%
 
+.header
+	.inner 
+		.pageh2:not(.indexH1) +	p 	
+			:margin-left 170px
+			:margin-right 200px	
+			:line-height 32px
+			:font-size 24px
+
 
 p.strategy_description
-	:width 76%
+	// :width 76%
 	:font-size 30px
 	:line-height 30px
 
@@ -524,10 +533,10 @@ span
 			:font-size 50px
 			:width 90%
 
-	p.indexP 
-		:width 100%
-		:margin 0 auto
-		:margin-top 15px
+	// p.indexP 
+	// 	:width 100%
+	// 	:margin 0 auto
+	// 	:margin-top 15px
 
 	.title 
 		:width 80%
@@ -567,11 +576,11 @@ span
 		:font-size 40px
 
 	p.strategy_description
-		:width 65%
+		// :width 65%
 		:font-size 15px
 		:line-height 18px
 		:margin-top 20px
-		:margin-left 85px
+		// :margin-left 85px
 
 	.about
 		:display block
@@ -666,8 +675,8 @@ span
 	p.strategy_description
 		:margin-left 90px
 
-	p.indexP
-		:margin-left 0 auto
+	// p.indexP
+	// 	:margin-left 0 auto
 
 	.title
 		:width 100%
