@@ -71,7 +71,13 @@ ul.nav li:hover
 	:left 0
 	:right 0
 
+h2.indexH1
+	:font-size 45px
+	:margin-top 150px
 
+p.indexP
+	:width 76%
+	:color white
 
 .about 
 	:position relative
@@ -270,16 +276,16 @@ ul.nav li:hover
 	:font-size 63px
 
 .header-evaluation
-	:height 420px
+	:height 440px
 	:background-image url('images/evaluationHeader.jpg')
 
 .header-intervention
-	:height 420px
+	:height 440px
 	:background-image url('images/interventionHeader.jpg')
 	:background-position: 5px 660px;
 
 .header-pedagogy
-	:height 420px
+	:height 440px
 	:background-image url('images/pedagogyHeader.jpg')
 	:background-position: 5px 660px;
 
@@ -298,12 +304,13 @@ ul.nav li:hover
 .inner-evaluation h2.pageh2
 	:margin-bottom -20px
 	:margin-left 170px
-	:margin-top 25px
+	:margin-top 195px
+	:width 75%
 
 
 p.strategy_description
-	:width 45%
-	:font-size 21px
+	:width 76%
+	:font-size 30px
 	:line-height 30px
 
 .videos 
@@ -317,6 +324,14 @@ p.strategy_description
 	:margin 30px
 	:padding-top 0%
 
+.video:hover
+	// :box-shadow 8px 8px 4px rgba(212,212,212,1)
+	:background rgba(227, 227, 227, 0.45)
+	:transition background .5s ease-out
+	:moz-transition background .5s ease-out
+	:webkit-transition background .5s ease-out
+	:o-transition background .5s ease-out
+
 a.video
 	:display flex
 	:justify-content center
@@ -326,12 +341,14 @@ a.video
 	:padding-top 0%
 
 .video_left 
-	:width 20%
+	:width 30%
 	:padding-left 30px
 	:padding-top 25px
+	img
+		:width 250px
 
 .video_right 
-	:width 70%
+	:width 60%
 	.video_title
 		:font-weight bold
 		:font-size 1.5em
@@ -432,6 +449,7 @@ a.video
 
 span
 	:font-size 30px
+	:line-height 35px
 
 
 //KEYFRAMES
@@ -503,6 +521,10 @@ span
 			:font-size 50px
 			:width 90%
 
+	p.indexP 
+		:width 100%
+		:margin 0 auto
+		:margin-top 15px
 
 	.title 
 		:width 80%
@@ -526,9 +548,9 @@ span
 	.fancybox-caption-wrap 
 		:width 30% !important
 
-@media (max-width:600px)
+@media (max-width:675px)
 	.header 
-		:height 300px
+		:height 460px
 		h1
 			:font-size 60px
 			:margin-top 70px
@@ -537,14 +559,16 @@ span
 			:width 90%
 
 	.inner-evaluation h2.pageh2
-		:margin-top 7.5px
-		:font-size 30px
+		:margin-top 215px
+		:margin-left 85px
+		:font-size 40px
 
 	p.strategy_description
 		:width 65%
 		:font-size 15px
 		:line-height 18px
 		:margin-top 20px
+		:margin-left 85px
 
 	.about
 		:display block
@@ -633,11 +657,14 @@ span
 		:margin-top 45px
 		:margin-left 20px
 
-	.inner-evaluation h2.pageh2
-		:margin-left 20px
+	// .inner-evaluation h2.pageh2
+	// 	:margin-left 20px
 
 	p.strategy_description
-		:margin-left 20px
+		:margin-left 90px
+
+	p.indexP
+		:margin-left 0 auto
 
 	.title
 		:width 100%
